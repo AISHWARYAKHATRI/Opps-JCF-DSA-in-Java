@@ -25,7 +25,7 @@ public class strings {
            //2 s1 < s2: -ve value
            //3 s1 == s2: 0
            String name1 = "Aishw";
-           String name2 = "Aish";
+           String name2 = "Aishwarya";
            if(name1.compareTo(name2) == 0) System.out.println("yes");
            else System.out.println("No");
            
@@ -37,6 +37,11 @@ public class strings {
            //substr
            System.out.println(fullName.substring(0, 5));
            System.out.println(name1.toLowerCase());
+           System.out.println(name1.indexOf(name2));
+           while(name1.indexOf(name2) != 0) {
+        	   name2 = name2.substring(0, name2.length()-1);
+           }
+           System.out.println(name1.indexOf(name2));
 	}
 
 }
