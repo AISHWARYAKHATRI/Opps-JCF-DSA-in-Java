@@ -16,7 +16,7 @@ public class OOPS6_interfaces {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-         Horse h = new Horse();
+         Animals h = new Horse();
          h.walk();
 	}
 
